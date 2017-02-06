@@ -1,0 +1,839 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9768E9C51E4381EF0088D707 /* IPhonePortraitRetina4IOS56.png in Resources */ = {isa = PBXBuildFile; fileRef = 9768E9C41E4381EF0088D707 /* IPhonePortraitRetina4IOS56.png */; };
+		97694B361E3F5A69003128C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97694B351E3F5A69003128C5 /* main.m */; };
+		97694B391E3F5A69003128C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97694B381E3F5A69003128C5 /* AppDelegate.m */; };
+		97694B3C1E3F5A69003128C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97694B3B1E3F5A69003128C5 /* ViewController.m */; };
+		97694B3F1E3F5A69003128C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97694B3D1E3F5A69003128C5 /* Main.storyboard */; };
+		97694B441E3F5A69003128C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97694B421E3F5A69003128C5 /* LaunchScreen.storyboard */; };
+		97694B4F1E3F5A69003128C5 /* Tennis_Score_BoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97694B4E1E3F5A69003128C5 /* Tennis_Score_BoardTests.m */; };
+		97694B5A1E3F5A69003128C5 /* Tennis_Score_BoardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97694B591E3F5A69003128C5 /* Tennis_Score_BoardUITests.m */; };
+		97694B5F1E3F5A69003128C5 /* Tennis Score Board WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 97694B5E1E3F5A69003128C5 /* Tennis Score Board WatchKit App.app */; };
+		97694B651E3F5A69003128C5 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97694B631E3F5A69003128C5 /* Interface.storyboard */; };
+		97694B671E3F5A69003128C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97694B661E3F5A69003128C5 /* Assets.xcassets */; };
+		97694B6E1E3F5A69003128C5 /* Tennis Score Board WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 97694B6D1E3F5A69003128C5 /* Tennis Score Board WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		97694B761E3F5A69003128C5 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97694B751E3F5A69003128C5 /* InterfaceController.m */; };
+		97694B791E3F5A69003128C5 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97694B781E3F5A69003128C5 /* ExtensionDelegate.m */; };
+		97694B7C1E3F5A69003128C5 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97694B7B1E3F5A69003128C5 /* NotificationController.m */; };
+		97694B7E1E3F5A69003128C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97694B7D1E3F5A69003128C5 /* Assets.xcassets */; };
+		97A09BB31E4377400017A936 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97A09BB21E4377400017A936 /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		97694B4B1E3F5A69003128C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97694B291E3F5A68003128C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97694B301E3F5A68003128C5;
+			remoteInfo = "Tennis Score Board";
+		};
+		97694B561E3F5A69003128C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97694B291E3F5A68003128C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97694B301E3F5A68003128C5;
+			remoteInfo = "Tennis Score Board";
+		};
+		97694B601E3F5A69003128C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97694B291E3F5A68003128C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97694B5D1E3F5A69003128C5;
+			remoteInfo = "Tennis Score Board WatchKit App";
+		};
+		97694B6F1E3F5A69003128C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97694B291E3F5A68003128C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97694B6C1E3F5A69003128C5;
+			remoteInfo = "Tennis Score Board WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		97694B851E3F5A69003128C5 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				97694B6E1E3F5A69003128C5 /* Tennis Score Board WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97694B891E3F5A69003128C5 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				97694B5F1E3F5A69003128C5 /* Tennis Score Board WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9768E9C41E4381EF0088D707 /* IPhonePortraitRetina4IOS56.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IPhonePortraitRetina4IOS56.png; sourceTree = "<group>"; };
+		97694B311E3F5A69003128C5 /* Tennis Score Board.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tennis Score Board.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97694B351E3F5A69003128C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		97694B371E3F5A69003128C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		97694B381E3F5A69003128C5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		97694B3A1E3F5A69003128C5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		97694B3B1E3F5A69003128C5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		97694B3E1E3F5A69003128C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		97694B431E3F5A69003128C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		97694B451E3F5A69003128C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97694B4A1E3F5A69003128C5 /* Tennis Score BoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tennis Score BoardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97694B4E1E3F5A69003128C5 /* Tennis_Score_BoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tennis_Score_BoardTests.m; sourceTree = "<group>"; };
+		97694B501E3F5A69003128C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97694B551E3F5A69003128C5 /* Tennis Score BoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tennis Score BoardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97694B591E3F5A69003128C5 /* Tennis_Score_BoardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tennis_Score_BoardUITests.m; sourceTree = "<group>"; };
+		97694B5B1E3F5A69003128C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97694B5E1E3F5A69003128C5 /* Tennis Score Board WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tennis Score Board WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97694B641E3F5A69003128C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		97694B661E3F5A69003128C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97694B681E3F5A69003128C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97694B6D1E3F5A69003128C5 /* Tennis Score Board WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Tennis Score Board WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97694B731E3F5A69003128C5 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		97694B741E3F5A69003128C5 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		97694B751E3F5A69003128C5 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		97694B771E3F5A69003128C5 /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		97694B781E3F5A69003128C5 /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		97694B7A1E3F5A69003128C5 /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		97694B7B1E3F5A69003128C5 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		97694B7D1E3F5A69003128C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97694B7F1E3F5A69003128C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97A09BB21E4377400017A936 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97694B2E1E3F5A68003128C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97694B471E3F5A69003128C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97694B521E3F5A69003128C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97694B6A1E3F5A69003128C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		97694B281E3F5A68003128C5 = {
+			isa = PBXGroup;
+			children = (
+				97694B331E3F5A69003128C5 /* Tennis Score Board */,
+				97694B4D1E3F5A69003128C5 /* Tennis Score BoardTests */,
+				97694B581E3F5A69003128C5 /* Tennis Score BoardUITests */,
+				97694B621E3F5A69003128C5 /* Tennis Score Board WatchKit App */,
+				97694B711E3F5A69003128C5 /* Tennis Score Board WatchKit Extension */,
+				97694B321E3F5A69003128C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		97694B321E3F5A69003128C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97694B311E3F5A69003128C5 /* Tennis Score Board.app */,
+				97694B4A1E3F5A69003128C5 /* Tennis Score BoardTests.xctest */,
+				97694B551E3F5A69003128C5 /* Tennis Score BoardUITests.xctest */,
+				97694B5E1E3F5A69003128C5 /* Tennis Score Board WatchKit App.app */,
+				97694B6D1E3F5A69003128C5 /* Tennis Score Board WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97694B331E3F5A69003128C5 /* Tennis Score Board */ = {
+			isa = PBXGroup;
+			children = (
+				97A09BB21E4377400017A936 /* Images.xcassets */,
+				97694B371E3F5A69003128C5 /* AppDelegate.h */,
+				97F963E31E4374BD0041D651 /* New Group */,
+				97694B381E3F5A69003128C5 /* AppDelegate.m */,
+				97694B3A1E3F5A69003128C5 /* ViewController.h */,
+				97694B3B1E3F5A69003128C5 /* ViewController.m */,
+				97694B3D1E3F5A69003128C5 /* Main.storyboard */,
+				9768E9C41E4381EF0088D707 /* IPhonePortraitRetina4IOS56.png */,
+				97694B421E3F5A69003128C5 /* LaunchScreen.storyboard */,
+				97694B451E3F5A69003128C5 /* Info.plist */,
+				97694B341E3F5A69003128C5 /* Supporting Files */,
+			);
+			path = "Tennis Score Board";
+			sourceTree = "<group>";
+		};
+		97694B341E3F5A69003128C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				97694B351E3F5A69003128C5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		97694B4D1E3F5A69003128C5 /* Tennis Score BoardTests */ = {
+			isa = PBXGroup;
+			children = (
+				97694B4E1E3F5A69003128C5 /* Tennis_Score_BoardTests.m */,
+				97694B501E3F5A69003128C5 /* Info.plist */,
+			);
+			path = "Tennis Score BoardTests";
+			sourceTree = "<group>";
+		};
+		97694B581E3F5A69003128C5 /* Tennis Score BoardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				97694B591E3F5A69003128C5 /* Tennis_Score_BoardUITests.m */,
+				97694B5B1E3F5A69003128C5 /* Info.plist */,
+			);
+			path = "Tennis Score BoardUITests";
+			sourceTree = "<group>";
+		};
+		97694B621E3F5A69003128C5 /* Tennis Score Board WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				97694B631E3F5A69003128C5 /* Interface.storyboard */,
+				97694B661E3F5A69003128C5 /* Assets.xcassets */,
+				97694B681E3F5A69003128C5 /* Info.plist */,
+			);
+			path = "Tennis Score Board WatchKit App";
+			sourceTree = "<group>";
+		};
+		97694B711E3F5A69003128C5 /* Tennis Score Board WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				97694B741E3F5A69003128C5 /* InterfaceController.h */,
+				97694B751E3F5A69003128C5 /* InterfaceController.m */,
+				97694B771E3F5A69003128C5 /* ExtensionDelegate.h */,
+				97694B781E3F5A69003128C5 /* ExtensionDelegate.m */,
+				97694B7A1E3F5A69003128C5 /* NotificationController.h */,
+				97694B7B1E3F5A69003128C5 /* NotificationController.m */,
+				97694B7D1E3F5A69003128C5 /* Assets.xcassets */,
+				97694B7F1E3F5A69003128C5 /* Info.plist */,
+				97694B721E3F5A69003128C5 /* Supporting Files */,
+			);
+			path = "Tennis Score Board WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		97694B721E3F5A69003128C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				97694B731E3F5A69003128C5 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		97F963E31E4374BD0041D651 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97694B301E3F5A68003128C5 /* Tennis Score Board */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97694B8A1E3F5A69003128C5 /* Build configuration list for PBXNativeTarget "Tennis Score Board" */;
+			buildPhases = (
+				97694B2D1E3F5A68003128C5 /* Sources */,
+				97694B2E1E3F5A68003128C5 /* Frameworks */,
+				97694B2F1E3F5A68003128C5 /* Resources */,
+				97694B891E3F5A69003128C5 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97694B611E3F5A69003128C5 /* PBXTargetDependency */,
+			);
+			name = "Tennis Score Board";
+			productName = "Tennis Score Board";
+			productReference = 97694B311E3F5A69003128C5 /* Tennis Score Board.app */;
+			productType = "com.apple.product-type.application";
+		};
+		97694B491E3F5A69003128C5 /* Tennis Score BoardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97694B8D1E3F5A69003128C5 /* Build configuration list for PBXNativeTarget "Tennis Score BoardTests" */;
+			buildPhases = (
+				97694B461E3F5A69003128C5 /* Sources */,
+				97694B471E3F5A69003128C5 /* Frameworks */,
+				97694B481E3F5A69003128C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97694B4C1E3F5A69003128C5 /* PBXTargetDependency */,
+			);
+			name = "Tennis Score BoardTests";
+			productName = "Tennis Score BoardTests";
+			productReference = 97694B4A1E3F5A69003128C5 /* Tennis Score BoardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		97694B541E3F5A69003128C5 /* Tennis Score BoardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97694B901E3F5A69003128C5 /* Build configuration list for PBXNativeTarget "Tennis Score BoardUITests" */;
+			buildPhases = (
+				97694B511E3F5A69003128C5 /* Sources */,
+				97694B521E3F5A69003128C5 /* Frameworks */,
+				97694B531E3F5A69003128C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97694B571E3F5A69003128C5 /* PBXTargetDependency */,
+			);
+			name = "Tennis Score BoardUITests";
+			productName = "Tennis Score BoardUITests";
+			productReference = 97694B551E3F5A69003128C5 /* Tennis Score BoardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		97694B5D1E3F5A69003128C5 /* Tennis Score Board WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97694B861E3F5A69003128C5 /* Build configuration list for PBXNativeTarget "Tennis Score Board WatchKit App" */;
+			buildPhases = (
+				97694B5C1E3F5A69003128C5 /* Resources */,
+				97694B851E3F5A69003128C5 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97694B701E3F5A69003128C5 /* PBXTargetDependency */,
+			);
+			name = "Tennis Score Board WatchKit App";
+			productName = "Tennis Score Board WatchKit App";
+			productReference = 97694B5E1E3F5A69003128C5 /* Tennis Score Board WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		97694B6C1E3F5A69003128C5 /* Tennis Score Board WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97694B821E3F5A69003128C5 /* Build configuration list for PBXNativeTarget "Tennis Score Board WatchKit Extension" */;
+			buildPhases = (
+				97694B691E3F5A69003128C5 /* Sources */,
+				97694B6A1E3F5A69003128C5 /* Frameworks */,
+				97694B6B1E3F5A69003128C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tennis Score Board WatchKit Extension";
+			productName = "Tennis Score Board WatchKit Extension";
+			productReference = 97694B6D1E3F5A69003128C5 /* Tennis Score Board WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97694B291E3F5A68003128C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Luca Innocenti";
+				TargetAttributes = {
+					97694B301E3F5A68003128C5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = EH76SGX5Y3;
+						ProvisioningStyle = Automatic;
+					};
+					97694B491E3F5A69003128C5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = EH76SGX5Y3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 97694B301E3F5A68003128C5;
+					};
+					97694B541E3F5A69003128C5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = EH76SGX5Y3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 97694B301E3F5A68003128C5;
+					};
+					97694B5D1E3F5A69003128C5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = EH76SGX5Y3;
+						ProvisioningStyle = Automatic;
+					};
+					97694B6C1E3F5A69003128C5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = EH76SGX5Y3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 97694B2C1E3F5A68003128C5 /* Build configuration list for PBXProject "Tennis Score Board" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97694B281E3F5A68003128C5;
+			productRefGroup = 97694B321E3F5A69003128C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97694B301E3F5A68003128C5 /* Tennis Score Board */,
+				97694B491E3F5A69003128C5 /* Tennis Score BoardTests */,
+				97694B541E3F5A69003128C5 /* Tennis Score BoardUITests */,
+				97694B5D1E3F5A69003128C5 /* Tennis Score Board WatchKit App */,
+				97694B6C1E3F5A69003128C5 /* Tennis Score Board WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97694B2F1E3F5A68003128C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97A09BB31E4377400017A936 /* Images.xcassets in Resources */,
+				97694B441E3F5A69003128C5 /* LaunchScreen.storyboard in Resources */,
+				9768E9C51E4381EF0088D707 /* IPhonePortraitRetina4IOS56.png in Resources */,
+				97694B3F1E3F5A69003128C5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97694B481E3F5A69003128C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97694B531E3F5A69003128C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97694B5C1E3F5A69003128C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97694B671E3F5A69003128C5 /* Assets.xcassets in Resources */,
+				97694B651E3F5A69003128C5 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97694B6B1E3F5A69003128C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97694B7E1E3F5A69003128C5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97694B2D1E3F5A68003128C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97694B3C1E3F5A69003128C5 /* ViewController.m in Sources */,
+				97694B391E3F5A69003128C5 /* AppDelegate.m in Sources */,
+				97694B361E3F5A69003128C5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97694B461E3F5A69003128C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97694B4F1E3F5A69003128C5 /* Tennis_Score_BoardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97694B511E3F5A69003128C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97694B5A1E3F5A69003128C5 /* Tennis_Score_BoardUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97694B691E3F5A69003128C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97694B791E3F5A69003128C5 /* ExtensionDelegate.m in Sources */,
+				97694B761E3F5A69003128C5 /* InterfaceController.m in Sources */,
+				97694B7C1E3F5A69003128C5 /* NotificationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		97694B4C1E3F5A69003128C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97694B301E3F5A68003128C5 /* Tennis Score Board */;
+			targetProxy = 97694B4B1E3F5A69003128C5 /* PBXContainerItemProxy */;
+		};
+		97694B571E3F5A69003128C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97694B301E3F5A68003128C5 /* Tennis Score Board */;
+			targetProxy = 97694B561E3F5A69003128C5 /* PBXContainerItemProxy */;
+		};
+		97694B611E3F5A69003128C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97694B5D1E3F5A69003128C5 /* Tennis Score Board WatchKit App */;
+			targetProxy = 97694B601E3F5A69003128C5 /* PBXContainerItemProxy */;
+		};
+		97694B701E3F5A69003128C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97694B6C1E3F5A69003128C5 /* Tennis Score Board WatchKit Extension */;
+			targetProxy = 97694B6F1E3F5A69003128C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		97694B3D1E3F5A69003128C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97694B3E1E3F5A69003128C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		97694B421E3F5A69003128C5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97694B431E3F5A69003128C5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		97694B631E3F5A69003128C5 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97694B641E3F5A69003128C5 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		97694B801E3F5A69003128C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		97694B811E3F5A69003128C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97694B831E3F5A69003128C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = EH76SGX5Y3;
+				INFOPLIST_FILE = "Tennis Score Board WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "unifi.Tennis-Score-Board.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		97694B841E3F5A69003128C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = EH76SGX5Y3;
+				INFOPLIST_FILE = "Tennis Score Board WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "unifi.Tennis-Score-Board.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		97694B871E3F5A69003128C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EH76SGX5Y3;
+				IBSC_MODULE = Tennis_Score_Board_WatchKit_Extension;
+				INFOPLIST_FILE = "Tennis Score Board WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "unifi.Tennis-Score-Board.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		97694B881E3F5A69003128C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EH76SGX5Y3;
+				IBSC_MODULE = Tennis_Score_Board_WatchKit_Extension;
+				INFOPLIST_FILE = "Tennis Score Board WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "unifi.Tennis-Score-Board.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		97694B8B1E3F5A69003128C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = EH76SGX5Y3;
+				INFOPLIST_FILE = "Tennis Score Board/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "unifi.Tennis-Score-Board";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		97694B8C1E3F5A69003128C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = EH76SGX5Y3;
+				INFOPLIST_FILE = "Tennis Score Board/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "unifi.Tennis-Score-Board";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		97694B8E1E3F5A69003128C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = EH76SGX5Y3;
+				INFOPLIST_FILE = "Tennis Score BoardTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "unifi.Tennis-Score-BoardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tennis Score Board.app/Tennis Score Board";
+			};
+			name = Debug;
+		};
+		97694B8F1E3F5A69003128C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = EH76SGX5Y3;
+				INFOPLIST_FILE = "Tennis Score BoardTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "unifi.Tennis-Score-BoardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tennis Score Board.app/Tennis Score Board";
+			};
+			name = Release;
+		};
+		97694B911E3F5A69003128C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = EH76SGX5Y3;
+				INFOPLIST_FILE = "Tennis Score BoardUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "unifi.Tennis-Score-BoardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Tennis Score Board";
+			};
+			name = Debug;
+		};
+		97694B921E3F5A69003128C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = EH76SGX5Y3;
+				INFOPLIST_FILE = "Tennis Score BoardUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "unifi.Tennis-Score-BoardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Tennis Score Board";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97694B2C1E3F5A68003128C5 /* Build configuration list for PBXProject "Tennis Score Board" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97694B801E3F5A69003128C5 /* Debug */,
+				97694B811E3F5A69003128C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97694B821E3F5A69003128C5 /* Build configuration list for PBXNativeTarget "Tennis Score Board WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97694B831E3F5A69003128C5 /* Debug */,
+				97694B841E3F5A69003128C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97694B861E3F5A69003128C5 /* Build configuration list for PBXNativeTarget "Tennis Score Board WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97694B871E3F5A69003128C5 /* Debug */,
+				97694B881E3F5A69003128C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97694B8A1E3F5A69003128C5 /* Build configuration list for PBXNativeTarget "Tennis Score Board" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97694B8B1E3F5A69003128C5 /* Debug */,
+				97694B8C1E3F5A69003128C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97694B8D1E3F5A69003128C5 /* Build configuration list for PBXNativeTarget "Tennis Score BoardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97694B8E1E3F5A69003128C5 /* Debug */,
+				97694B8F1E3F5A69003128C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97694B901E3F5A69003128C5 /* Build configuration list for PBXNativeTarget "Tennis Score BoardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97694B911E3F5A69003128C5 /* Debug */,
+				97694B921E3F5A69003128C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97694B291E3F5A68003128C5 /* Project object */;
+}

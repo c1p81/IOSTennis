@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch42" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11508"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller contentMode="scaleAspectFit" id="AgC-eL-Hgc" customClass="InterfaceController">
+                    <items>
+                        <group width="1" alignment="left" alpha="0.94999999999999996" id="Zy1-xz-KFV">
+                            <items>
+                                <label width="53" height="20" alignment="left" verticalAlignment="center" text="0" textAlignment="center" id="CcI-nS-4QP"/>
+                                <label width="27" height="21" alignment="center" verticalAlignment="center" text="Set" textAlignment="center" id="yoy-Kb-CcB"/>
+                                <label width="45" alignment="right" verticalAlignment="center" text="0" textAlignment="center" id="rF1-P3-Arf"/>
+                            </items>
+                        </group>
+                        <group width="1" height="43" alignment="left" id="hKy-6z-h0j">
+                            <items>
+                                <button width="50" alignment="left" verticalAlignment="center" title="00" id="c5m-5p-Xci">
+                                    <color key="backgroundColor" red="1" green="0.10243226655507875" blue="0.10888245452506506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <connections>
+                                        <action selector="add_point_left" destination="AgC-eL-Hgc" id="LVM-Ho-oYZ"/>
+                                    </connections>
+                                </button>
+                                <button width="50" alignment="right" verticalAlignment="center" title="00" id="TjY-iA-Kuy">
+                                    <color key="backgroundColor" red="0.17336083820012196" green="0.89291207901554404" blue="0.019505069001752518" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <connections>
+                                        <action selector="add_point_right" destination="AgC-eL-Hgc" id="PQF-zU-c2t"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" height="27" alignment="left" id="prK-gw-Bbb">
+                            <items>
+                                <imageView width="50" height="20" alignment="left" verticalAlignment="center" image="Palla" contentMode="scaleAspectFit" id="Qq7-qo-kci" userLabel="Serviceleft"/>
+                                <label alignment="center" verticalAlignment="center" text="TB" textAlignment="center" id="eQ7-ZW-kIN"/>
+                                <imageView width="48" height="20" alignment="right" verticalAlignment="center" image="Palla" contentMode="scaleAspectFit" id="BgV-AL-oyC" userLabel="Serviceright"/>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="tWq-5I-C8p">
+                            <items>
+                                <label width="49" height="19" alignment="left" verticalAlignment="center" text="0" textAlignment="center" id="ybp-XQ-1K0" userLabel="Gameleft"/>
+                                <label width="33" height="21" alignment="center" verticalAlignment="center" text="Game" textAlignment="center" id="qHL-lr-Ehb">
+                                    <fontDescription key="font" type="system" pointSize="12"/>
+                                </label>
+                                <label width="50" height="17" alignment="right" verticalAlignment="center" text="0" textAlignment="center" id="Spu-Gv-Ah7" userLabel="Gameright"/>
+                            </items>
+                        </group>
+                        <button width="80" alignment="center" verticalAlignment="center" title="Undo" id="VGo-di-OTM">
+                            <color key="backgroundColor" red="0.0" green="0.54739064290914463" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="undo_bt" destination="AgC-eL-Hgc" id="zaz-RZ-HN5"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="gameleft" destination="ybp-XQ-1K0" id="QMB-Ko-LPC"/>
+                        <outlet property="gameright" destination="Spu-Gv-Ah7" id="84T-iT-6KH"/>
+                        <outlet property="point_left" destination="c5m-5p-Xci" id="Itk-uE-IRu"/>
+                        <outlet property="point_right" destination="TjY-iA-Kuy" id="9Un-g0-uU5"/>
+                        <outlet property="serviceleft" destination="BgV-AL-oyC" id="l1c-65-cSx"/>
+                        <outlet property="serviceright" destination="Qq7-qo-kci" id="FT5-Y6-pnS"/>
+                        <outlet property="setleft" destination="CcI-nS-4QP" id="CIh-2R-kE0"/>
+                        <outlet property="setright" destination="rF1-P3-Arf" id="1DV-Xj-RH4"/>
+                        <outlet property="tiebreak" destination="eQ7-ZW-kIN" id="lsZ-UZ-mse"/>
+                        <outlet property="undo" destination="VGo-di-OTM" id="5Ue-ig-8PZ"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="219" y="335"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" id="IdU-wH-bcW"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="220" y="643"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="ZPc-GJ-vnh">
+            <objects>
+                <controller id="4sK-HA-Art" customClass="NotificationController"/>
+            </objects>
+            <point key="canvasLocation" x="468" y="643"/>
+        </scene>
+    </scenes>
+</document>
