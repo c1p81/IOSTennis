@@ -19,7 +19,7 @@ int setdestra = 0;
 
 int servizio = 1;
 
-int storico [2000] [6];
+int storico [2000] [7];
 int indice_storico = 0;
 
 @interface ViewController ()
@@ -28,9 +28,8 @@ int indice_storico = 0;
 
 @implementation ViewController
 
-- (void)cambio_palla
+- (void)cambio_palla_immagine
 {
-    servizio = servizio + 1;
     if ((servizio %2) == 0)
     {
         [self.serviceright setHidden:true];
@@ -41,6 +40,13 @@ int indice_storico = 0;
         [self.serviceright setHidden:NO];
         [self.serviceleft setHidden:true];
     }
+
+}
+
+- (void)cambio_palla
+{
+    servizio = servizio + 1;
+    [self cambio_palla_immagine];
     
 }
 
@@ -151,18 +157,21 @@ int indice_storico = 0;
     [self.setleft setText:@(setsinistra).stringValue];
     [self.setright setText:@(setdestra).stringValue];
     
-    if ((gamedestra == 6) && (gamesinistra ==6))
+    if ((gamedestra == 6) && (gamesinistra == 6))
     {
-        [self.tiebreak setText:@"TB"];
+        [_tiebreak setText:@"TB"];
     }
     else
     {
-        [self.tiebreak setText:@""];
+        [_tiebreak setText:@" "];
     }
     
     NSLog(@"%d-%d Game %d-%d Set %d-%d",puntisinistra,puntidestra,gamesinistra,gamedestra,setsinistra,setdestra);
-    
-    
+    return;
+}
+
+
+- (void)storico {
     indice_storico = indice_storico + 1;
     storico[indice_storico][0] = puntisinistra;
     storico[indice_storico][1] = puntidestra;
@@ -170,10 +179,10 @@ int indice_storico = 0;
     storico[indice_storico][3] = gamedestra;
     storico[indice_storico][4] = setsinistra;
     storico[indice_storico][5] = setdestra;
-    
-    return;
-}
+    storico[indice_storico][6] = servizio;
+    NSLog(@"Indice : %d",indice_storico);
 
+}
 
 
 - (void)viewDidLoad {
@@ -188,7 +197,7 @@ int indice_storico = 0;
     
     [self.serviceright setHidden:NO];
     [self.serviceleft setHidden:true];
-    [self.tiebreak setText:@""];
+    storico[indice_storico][6] = 1;
     
     }
 
@@ -201,11 +210,31 @@ int indice_storico = 0;
 - (IBAction)add_point_left:(id)sender {
     puntisinistra = puntisinistra +1 ;
     [self update_score];
+    [self storico];
 }
 
 - (IBAction)add_point_right:(id)sender {
     puntidestra = puntidestra +1 ;
     [self update_score];
+    [self storico];
+    
+}
+- (IBAction)undo_point:(id)sender {
+    NSLog(@"Indice : %d",indice_storico);
+    if (indice_storico >= 1)
+    {
+        indice_storico = indice_storico - 1;
+        puntisinistra = storico[indice_storico][0];
+        puntidestra = storico[indice_storico][1];
+        gamesinistra = storico[indice_storico][2];
+        gamedestra = storico[indice_storico][3];
+        setsinistra = storico[indice_storico][4];
+        setdestra = storico[indice_storico][5];
+        servizio = storico[indice_storico][6];
+        [self update_score];
+        [self cambio_palla_immagine];
+    }
+
 }
 
 @end

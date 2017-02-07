@@ -48,7 +48,7 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="FWn-RJ-mB7">
-                                        <rect key="frame" x="0.0" y="93" width="320" height="48"/>
+                                        <rect key="frame" x="0.0" y="77.5" width="320" height="48"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iZq-Kq-nrV">
                                                 <rect key="frame" x="0.0" y="0.0" width="145" height="48"/>
@@ -81,28 +81,39 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleAspectFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="4Fh-Vv-IRb">
-                                        <rect key="frame" x="0.0" y="197.5" width="320" height="35"/>
+                                    <stackView opaque="NO" contentMode="scaleAspectFill" distribution="fillEqually" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="4Fh-Vv-IRb">
+                                        <rect key="frame" x="0.0" y="166.5" width="320" height="35"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Tennis-Ball-icon_25" translatesAutoresizingMaskIntoConstraints="NO" id="FMV-5D-YRp">
-                                                <rect key="frame" x="0.0" y="0.0" width="93.5" height="35"/>
+                                                <rect key="frame" x="0.0" y="5" width="93.5" height="25"/>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TieBreak" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WOG-pt-kEL">
-                                                <rect key="frame" x="113.5" y="0.0" width="93" height="35"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CaF-c3-LYm">
+                                                <rect key="frame" x="113.5" y="7.5" width="93" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Tennis-Ball-icon_25" translatesAutoresizingMaskIntoConstraints="NO" id="GTZ-wc-t8s">
-                                                <rect key="frame" x="226.5" y="0.0" width="93.5" height="35"/>
+                                                <rect key="frame" x="226.5" y="5" width="93.5" height="25"/>
                                             </imageView>
                                         </subviews>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="35" id="zJd-jL-pc4"/>
                                         </constraints>
                                     </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Swr-XL-XfH">
+                                        <rect key="frame" x="0.0" y="243" width="320" height="20.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WOG-pt-kEL">
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="o7d-YP-jVg">
-                                        <rect key="frame" x="0.0" y="289.5" width="320" height="36"/>
+                                        <rect key="frame" x="0.0" y="304.5" width="320" height="36"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HeU-60-urp">
                                                 <rect key="frame" x="0.0" y="0.0" width="100" height="36"/>
@@ -134,6 +145,9 @@
                                                 <state key="normal" title="Undo">
                                                     <color key="titleColor" red="0.95461230909999994" green="0.95507480089999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="undo_point:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xlx-qw-ckI"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
